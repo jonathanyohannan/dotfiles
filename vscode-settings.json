@@ -1,14 +1,14 @@
 {
-    "telemetry.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false,
+    "telemetry.telemetryLevel": "off",
     "workbench.startupEditor": "none",
     "workbench.settings.editor": "json",
     "workbench.settings.openDefaultSettings": true,
     "workbench.settings.useSplitJSON": true,
     "workbench.colorTheme": "Night Owl",
     "workbench.iconTheme": "material-icon-theme",
+    "explorer.confirmDelete": false,
     "python.pythonPath": "/usr/local/bin/python3",
-    "python.formatting.provider": "autopep8",
+    "python.formatting.provider": "black",
     "editor.formatOnSave": true,
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": true,
@@ -19,4 +19,5 @@
     },
     "code-runner.saveAllFilesBeforeRun": true,
     "code-runner.clearPreviousOutput": true,
+    "jupyter.askForKernelRestart": false,
 }
