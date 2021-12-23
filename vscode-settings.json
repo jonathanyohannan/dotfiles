@@ -19,6 +19,9 @@
 
   "liveServer.settings.donotShowInfoMsg": true,
 
+  "[python]": {
+    "editor.defaultFormatter": null
+  },
   "python.formatting.provider": "black",
   "python.linting.enabled": true,
   "python.linting.lintOnSave": true,
@@ -38,9 +41,10 @@
     }
   },
   "workbench.colorTheme": "Night Owl",
+  "workbench.editor.untitled.hint": "hidden",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.settings.editor": "json",
   "workbench.settings.openDefaultSettings": true,
   "workbench.settings.useSplitJSON": true,
-  "workbench.startupEditor": "welcomePage"
+  "workbench.startupEditor": "none"
 }
